@@ -19,7 +19,7 @@ images.forEach(function(img, index) {
 });
 
 
-// // to close the modal
-// span.onclick = function() {
-//   modal.style.display = "none";
-// };
+// to close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+};

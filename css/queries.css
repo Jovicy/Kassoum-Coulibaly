@@ -27,10 +27,6 @@
     }
 
     /* Header section*/
-    .header {
-        height: 100vh;
-    }
-
     .header-container {
         flex-direction: column-reverse;
     }

@@ -26,6 +26,13 @@
         cursor: pointer;
     }
 
+    .nav-btn {
+        box-shadow: none;
+        border-radius: 5px;
+        padding: 5px 5px;
+        font-size: 1.4rem;
+    }
+
     /* Header section*/
     .header-container {
         flex-direction: column-reverse;

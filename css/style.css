@@ -178,8 +178,70 @@ nav {
 }
 
 .active {
-   display: block; 
+    display: block;
 }
+
+.subnav-list {
+    display: none;
+    position: absolute;
+    background-color: var(--color-white);
+    box-shadow: var(--card-box-shadow);
+    padding: 0.5rem 0;
+    min-width: 200px;
+}
+
+.nav-list li:hover .subnav-list {
+    display: block;
+}
+
+.subnav-list li {
+    margin: 0;
+    padding: 0;
+    font-size: var(--fs-18);
+}
+
+.subnav-list li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--color-black);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.subnav-list li a:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.goog-te-gadget-icon {
+    display: none;
+}
+
+.goog-te-gadget-simple {
+    background-color: var(--color-secondary) !important;
+    border: 0 !important;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 800;
+    display: flex;
+    padding: 0.5rem !important;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.goog-te-gadget-simple span {
+    color: var(--color-white) !important;
+    border: none;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed img {
+    display: none !important;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+    text-decoration: none !important;
+}
+
 
 /* Logo */
 .logo p {
@@ -807,7 +869,6 @@ footer {
     max-width: max-content;
     letter-spacing: 2px;
     padding: 10px 22px;
-    box-shadow: 6px 6px 0 -1px var(--shadow-color, var(--jet));
     transition: var(--transition-1);
     cursor: pointer;
     border-radius: 2px;
@@ -818,10 +879,6 @@ footer {
     background-color: transparent;
     border: 2px solid var(--color-secondary);
     color: var(--color-secondary);
-}
-
-.contact-btn {
-    box-shadow: 6px 6px 0 -1px var(--shadow-color, var(--color));
 }
 
 .footer-btn {

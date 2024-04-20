@@ -14,26 +14,37 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <!-- Navigation bar -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="nav">
       <div class="nav-container container">
-        <div class="logo">
-          <p>K<span>Coulibaly</span></p>
-        </div>
-        <ul class="nav-list">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./services.html">Services</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-        <div>
-          <a href="#" class="nav-btn btn">Translate</a>
+        <div class="nav-logo">
+          <img src="./img/logo.jpg" alt="logo" />
         </div>
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
         </div>
+        <ul class="nav-list" id="navList">
+          <li><a href="./index.html">Home</a></li>
+          <li class="has-submenu">
+            <a href="./about.html">About Us</a>
+            <ul class="subnav-list">
+              <li><a href="./about.html#mission">My Mission</a></li>
+              <li><a href="./about.html#vision">My Vision</a></li>
+              <li><a href="./about.html#values">My Values</a></li>
+              <li><a href="./team.html">My Global Team</a></li>
+              <li><a href="./team.html#board">My Advisory Board</a></li>
+              <li><a href="index.html#partners">My Partners</a></li>
+              <li><a href="./gallery.html">My Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="./services.html">My Services</a></li>
+          <li><a href="#">My Initiatives</a></li>
+          <li><a href="#">My Program</a></li>
+          <li><a href="./index.html#events">My Events</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <div id="google_translate_element"></div>
+        </ul>
       </div>
     </nav>
 
@@ -258,41 +269,62 @@
       </div>
     </section>
 
-    <!-- footer section -->
-    <footer class="footer section">
+    <!-- Footer -->
+    <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-main">
-          <div class="footer-logo">
-            <p>K<span>Coulibaly</span></p>
+        <div class="footer-addresses">
+          <div class="footer-nav-title">
+            <h3>About</h3>
           </div>
-          <div class="footer-socials">
-            <a href="#">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-tiktok"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
+          <div class="footer-description">
+            <p>
+            </p>
+            <p class="copyright">
+              &copy;2024 Kassoum Coulibaly. All rights reserved.
+            </p>
           </div>
         </div>
-        <div class="footer-regs">
-          <div class="footer-form">
-            <input type="email" placeholder="Enter your Email" />
-            <a href="#" class="footer-btn btn">Submit</a>
+        <div class="footer-navlist">
+          <div class="footer-nav-title">
+            <h3>Company</h3>
           </div>
-          <div class="footer-copyright">
-            <p>&copy; 2024 Kassoum Coulibaly. All rights reserved.</p>
+          <ul class="footer-mainlist">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html#services">Services</a></li>
+            <li><a href="./index.html#events">Events</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <div class="footer-nav-title">
+            <h3>Join a Newsletter</h3>
+          </div>
+          <div class="footer-form-cont">
+            <input type="email" placeholder="Enter Your Email" />
+            <div>
+              <button class="news-btn btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="footer-socials">
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
           </div>
         </div>
       </div>

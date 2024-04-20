@@ -6,19 +6,21 @@
         top: 100%;
         left: 0;
         width: 100%;
+        padding: 0.4rem 0rem;
     }
 
     .nav-list.active {
         display: flex;
         gap: 25px;
         align-items: flex-start;
-        top: 78px;
+        flex-wrap: nowrap;
         height: 100vh;
         width: 100%;
         left: 0;
         background-color: #f4f4f4;
-        box-shadow:  var(--shadow);
+        box-shadow: var(--shadow);
         padding: 2rem 2rem;
+        overflow-y: scroll;
     }
 
     .menu-btn {
@@ -47,39 +49,21 @@
         position: static;
     }
 
-    /* Header section*/
-    .header-container {
-        flex-direction: column-reverse;
+    .goog-te-gadget-simple {
+        margin-left: 0;
     }
 
+    /* Header section*/
     .header-content {
         width: 100%;
         align-items: center;
         text-align: center;
     }
 
-    .header-img {
-        width: 100%;
-    }
-
-    .header-title {
-        font-size: 2.5rem;
-    }
-
-    /* partners */
-    .partner-container {
-        flex-direction: column;
-        gap: 5rem;
-        align-items: center;
-    }
-
-    .partner-logo {
-        width: 50%;
-    }
-
-    /* About section */
+    /* About Us */
     .about_section-container {
         flex-direction: column;
+        gap: 3rem;
     }
 
     .about_section-img {
@@ -90,9 +74,12 @@
         width: 100%;
     }
 
+
     /* Values section */
     .values_section-container {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .values_section-content {
@@ -110,6 +97,8 @@
     .values_section-cont {
         width: 100%;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .contact_section-container {
@@ -140,6 +129,25 @@
     .services-card {
         width: 100%;
         flex-direction: column;
+    }
+
+    /* events */
+    .events-content {
+        flex-direction: column;
+    }
+
+    .events-card {
+        width: 100%;
+    }
+
+    /* partners */
+
+    .partners-image-container {
+        flex-direction: column;
+    }
+
+    .partners-image-container div {
+        width: 100%;
     }
 
     /* contact us page */
@@ -212,13 +220,32 @@
     /* footer */
     .footer-container {
         flex-direction: column;
-        align-items: start;
-        gap: 1rem;
+    }
+
+    .footer-addresses {
+        width: 100%;
+    }
+
+    .footer-navlist {
+        width: 100%;
     }
 
     .footer-form {
+        width: 100%;
+    }
+
+    .footer-form-cont {
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
+    }
+
+    .footer-form input {
+        width: 100%;
+    }
+
+    .footer-socials {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 

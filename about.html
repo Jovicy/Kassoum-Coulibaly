@@ -14,26 +14,37 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <!-- Navigation bar -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="nav">
       <div class="nav-container container">
-        <div class="logo">
-          <p>K<span>Coulibaly</span></p>
-        </div>
-        <ul class="nav-list">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./services.html">Services</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-        <div>
-          <a href="#" class="nav-btn btn">Translate</a>
+        <div class="nav-logo">
+          <img src="./img/logo.jpg" alt="logo" />
         </div>
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
         </div>
+        <ul class="nav-list" id="navList">
+          <li><a href="./index.html">Home</a></li>
+          <li class="has-submenu">
+            <a href="./about.html">About Us</a>
+            <ul class="subnav-list">
+              <li><a href="./about.html#mission">My Mission</a></li>
+              <li><a href="./about.html#vision">My Vision</a></li>
+              <li><a href="./about.html#values">My Values</a></li>
+              <li><a href="./team.html">My Global Team</a></li>
+              <li><a href="./team.html#board">My Advisory Board</a></li>
+              <li><a href="index.html#partners">My Partners</a></li>
+              <li><a href="./gallery.html">My Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="./services.html">My Services</a></li>
+          <li><a href="#">My Initiatives</a></li>
+          <li><a href="#">My Program</a></li>
+          <li><a href="./index.html#events">My Events</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <div id="google_translate_element"></div>
+        </ul>
       </div>
     </nav>
 
@@ -156,41 +167,147 @@
       </div>
     </section>
 
-    <!-- footer section -->
-    <footer class="footer section">
-      <div class="footer-container container">
-        <div class="footer-main">
-          <div class="footer-logo">
-            <p>K<span>Coulibaly</span></p>
+    <!-- Values section -->
+    <section class="values section">
+      <div class="values_section-container container">
+        <div class="values_section-content">
+          <div class="values_section-title">
+            <h1>My Values</h1>
           </div>
-          <div class="footer-socials">
-            <a href="#">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-tiktok"></i>
-            </a>
-            <a href="#">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
+          <div class="values_section-main">
+            <div class="values_section_card">
+              <div class="values_section-cont">
+                <div class="values_section-icon">
+                  <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <div class="values_section-briefing">
+                  <h3>Professionalism</h3>
+                  <p>
+                    Develop the skills, talents, and behaviors needed to fully
+                    accomplish the missions assigned.
+                  </p>
+                </div>
+              </div>
+              <div class="values_section-cont">
+                <div class="values_section-icon">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="values_section-briefing">
+                  <h3>Teamwork</h3>
+                  <p>
+                    Working in groups to share skills and make up competences to
+                    achieve the objectives set.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="values_section_card">
+              <div class="values_section-cont">
+                <div class="values_section-icon">
+                  <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+                <div class="values_section-briefing">
+                  <h3>Integrity</h3>
+                  <p>
+                    DDevelop and implement our beliefs, be honest and
+                    transparent, and refuse any unfair method in our actions,
+                    our words, and our attitudes.
+                  </p>
+                </div>
+              </div>
+              <div class="values_section-cont">
+                <div class="values_section-icon">
+                  <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div class="values_section-briefing">
+                  <h3>Sense of initiative</h3>
+                  <p>
+                    The entrepreneurial spirit, questioning established
+                    situations should always allow us to go further for
+                    customers and support our common goal.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="values_section_card">
+              <div class="values_section-cont">
+                <div class="values_section-icon">
+                  <i class="fa-solid fa-earth-americas"></i>
+                </div>
+                <div class="values_section-briefing">
+                  <h3>Opening</h3>
+                  <p>
+                    Multidisciplinary and multicultural, the KC team must
+                    translate an opening in our thirst for knowledge, in the
+                    flow of information and ideas as free as possible, in our
+                    search beyond our preferred territories. provide me font
+                    awesome icon suggestion to put for each subheading
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="footer-regs">
-          <div class="footer-form">
-            <input type="email" placeholder="Enter your Email" />
-            <a href="#" class="footer-btn btn">Submit</a>
+      </div>
+    </section> 
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-addresses">
+          <div class="footer-nav-title">
+            <h3>About</h3>
           </div>
-          <div class="footer-copyright">
-            <p>&copy; 2024 Kassoum Coulibaly. All rights reserved.</p>
+          <div class="footer-description">
+            <p>
+            </p>
+            <p class="copyright">
+              &copy;2024 Kassoum Coulibaly. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <div class="footer-navlist">
+          <div class="footer-nav-title">
+            <h3>Company</h3>
+          </div>
+          <ul class="footer-mainlist">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html#services">Services</a></li>
+            <li><a href="./index.html#events">Events</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <div class="footer-nav-title">
+            <h3>Join a Newsletter</h3>
+          </div>
+          <div class="footer-form-cont">
+            <input type="email" placeholder="Enter Your Email" />
+            <div>
+              <button class="news-btn btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="footer-socials">
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
           </div>
         </div>
       </div>

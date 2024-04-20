@@ -14,13 +14,16 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <!-- Navigation bar -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="nav">
       <div class="nav-container container">
-        <div class="logo">
-          <p>K<span>Coulibaly</span></p>
+        <div class="nav-logo">
+          <img src="./img/logo.jpg" alt="logo" />
         </div>
-        <ul class="nav-list">
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-list" id="navList">
           <li><a href="./index.html">Home</a></li>
           <li class="has-submenu">
             <a href="./about.html">About Us</a>
@@ -29,19 +32,19 @@
               <li><a href="./about.html#vision">My Vision</a></li>
               <li><a href="./about.html#values">My Values</a></li>
               <li><a href="./team.html">My Global Team</a></li>
-              <li><a href="./team.html#board">Our Advisory Board</a></li>
-              <li><a href="#partners">My Partners</a></li>
+              <li><a href="./team.html#board">My Advisory Board</a></li>
+              <li><a href="index.html#partners">My Partners</a></li>
               <li><a href="./gallery.html">My Gallery</a></li>
             </ul>
           </li>
-          <li><a href="./services.html">Services</a></li>
+          <li><a href="./services.html">My Services</a></li>
+          <li><a href="#">My Initiatives</a></li>
+          <li><a href="#">My Program</a></li>
+          <li><a href="./index.html#events">My Events</a></li>
           <li><a href="./blog.html">Blog</a></li>
           <li><a href="./contact.html">Contact</a></li>
+          <div id="google_translate_element"></div>
         </ul>
-        <a href="#" id="google_translate_element"></a>
-        <div class="menu-btn">
-          <i class="fas fa-bars"></i>
-        </div>
       </div>
     </nav>
 
@@ -49,225 +52,421 @@
     <header class="header header-section">
       <div class="header-container container">
         <div class="header-content">
-          <p class="header-intro">👋 Hello, my name is</p>
-          <h1 class="header-title">Kassoum Coulibaly</h1>
-          <p class="header-paragraph">
-            An economist, a strategist, an intellectual, technology, economic,
-            and social entrepreneur.
-          </p>
-          <a href="./contact.html" class="btn">Contact Me</a>
-        </div>
-        <div class="header-img">
-          <img src="./img/IMG-20240418-WA0115.jpg" alt="header-img" />
+          <h1>Kassoum Coulibaly</h1>
+          <p>Slogan</p>
+          <div class="header-btn-cont">
+            <a href="#" class="btn header-btn">Read More</a>
+          </div>
         </div>
       </div>
     </header>
 
-    <!-- partner section -->
-    <section class="partners section">
-      <div class="partner-container container">
-        <div class="partner-logo">
-          <img src="./img/client-1.svg" alt="partner-img" />
-        </div>
-        <div class="partner-logo">
-          <img src="./img/client-3.svg" alt="partner-img" />
-        </div>
-        <div class="partner-logo">
-          <img src="./img/client-1.svg" alt="partner-img" />
-        </div>
-        <div class="partner-logo">
-          <img src="./img/client-3.svg" alt="partner-img" />
-        </div>
-        <div class="partner-logo">
-          <img src="./img/client-1.svg" alt="partner-img" />
-        </div>
-      </div>
-    </section>
-
-    <!-- About-section -->
-    <section class="about_section section">
+    <!-- About Section -->
+    <section class="about_section">
       <div class="about_section-container container">
         <div class="about_section-img">
           <img src="./img/IMG-20240418-WA0050.jpg" alt="about-img" />
         </div>
         <div class="about_section-content">
-          <h1 class="about-title">About Me</h1>
-          <p class="about_section-paragraph">
-            Mr. Kassoum Coulibaly is an economist, a strategist, an
-            intellectual, technology, economic, and social entrepreneur
-            motivated and committed to global economic progress, global
-            sustainable development, and the promotion of universal peace with
-            more than 21 years of working experience with Youth and Women across
-            Africa and the World. He is now dedicating all his life to the
-            promotion and protection of Human Rights, Women’s Rights, Gender
-            Equality, and the Empowerment of Women Worldwide in engaging men and
-            boys.
-          </p>
-          <a href="./about.html" class="btn">More About me</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Values section -->
-    <section class="values section">
-      <div class="values_section-container container">
-        <div class="values_section-content">
-          <div class="values_section-title">
-            <h1>My Values</h1>
+          <div class="about_section-title">
+            <h3>About</h3>
+            <h1>Welcome to Kassoum Coulibaly</h1>
           </div>
-          <div class="values_section-main">
-            <div class="values_section_card">
-              <div class="values_section-cont">
-                <div class="values_section-icon">
-                  <i class="fa-solid fa-user-tie"></i>
-                </div>
-                <div class="values_section-briefing">
-                  <h3>Professionalism</h3>
-                  <p>
-                    Develop the skills, talents, and behaviors needed to fully
-                    accomplish the missions assigned.
-                  </p>
-                </div>
-              </div>
-              <div class="values_section-cont">
-                <div class="values_section-icon">
-                  <i class="fa-solid fa-users"></i>
-                </div>
-                <div class="values_section-briefing">
-                  <h3>Teamwork</h3>
-                  <p>
-                    Working in groups to share skills and make up competences to
-                    achieve the objectives set.
-                  </p>
-                </div>
-              </div>
+          <div class="about_section-briefing">
+            <div>
+              <p>
+                Mr. Coulibaly is the Founder, President, and CEO of the Afrika
+                Global Gender Academy (AGGA), a branch of the Afrika Global
+                Group (AG Group) LLC – USA, a member of MenEngage Global
+                Alliance and also the National Coordinator of MenEngage Network
+                Mali and Vice-Chair of the Steering Committee of MenEngage
+                Africa Alliance. He is also a UN Women’s HeForShe Initiative
+                Member and the Co-Founder of the African Development Group
+                (ADG), the African Mining Alliance (AMA), the Alliance for
+                African Renaissance (ARA), and the African Youth Center (AYC).
+              </p>
             </div>
-            <div class="values_section_card">
-              <div class="values_section-cont">
-                <div class="values_section-icon">
-                  <i class="fa-solid fa-scale-balanced"></i>
-                </div>
-                <div class="values_section-briefing">
-                  <h3>Integrity</h3>
-                  <p>
-                    DDevelop and implement our beliefs, be honest and
-                    transparent, and refuse any unfair method in our actions,
-                    our words, and our attitudes.
-                  </p>
-                </div>
-              </div>
-              <div class="values_section-cont">
-                <div class="values_section-icon">
-                  <i class="fa-solid fa-lightbulb"></i>
-                </div>
-                <div class="values_section-briefing">
-                  <h3>Sense of initiative</h3>
-                  <p>
-                    The entrepreneurial spirit, questioning established
-                    situations should always allow us to go further for
-                    customers and support our common goal.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="values_section_card">
-              <div class="values_section-cont">
-                <div class="values_section-icon">
-                  <i class="fa-solid fa-earth-americas"></i>
-                </div>
-                <div class="values_section-briefing">
-                  <h3>Opening</h3>
-                  <p>
-                    Multidisciplinary and multicultural, the KC team must
-                    translate an opening in our thirst for knowledge, in the
-                    flow of information and ideas as free as possible, in our
-                    search beyond our preferred territories. provide me font
-                    awesome icon suggestion to put for each subheading
-                  </p>
-                </div>
-              </div>
+            <div>
+              <a href="#" class="btn">Read More</a>
             </div>
           </div>
         </div>
-        <div class="values_section-img">
-          <img src="./img/IMG-20240418-WA0060.jpg" alt="values-img" />
+      </div>
+    </section>
+   
+    <!-- Services section -->
+    <section class="services section">
+      <div class="services-container container">
+        <div class="services-title">
+          <h1>My Services</h1>
+        </div>
+        <div class="services-content">
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Business and Organizational Purpose</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-rotate"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Business Transformation & MSME Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>International Business & Investment Promotion</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-leaf"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Climate Change and Sustainability</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Corporate Finance and Strategy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Customer Insights, Marketing, Trade, and Sales</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Sciences, AI, Digital, Technology, and Data</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Gender Equality, Diversity, Equity, and Inclusion</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-flask"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Research (R&D), Innovation Strategy and Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-industry"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>
+                Manufacturing, Operations management, Franchise development
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Education, Training, People Strategy & HR Management</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-sitemap"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Organization Strategy & Social Impact</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-money-bill-wave"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Pricing and Revenue & Fund Management</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-shield"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Risk Management and Compliance</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>Project design, management, and M&E</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <div class="services-briefing">
+              <h3>M&A, Transactions, and PMI</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                expedita totam animi tempore debitis, sed voluptas pariatur
+                libero cumque! Architecto.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact_section section">
-      <div class="contact_section-container container">
-        <div class="contact_section-title">
-          <h1>Intrested in working with me?</h1>
+    <!-- Events section -->
+    <section class="events section" id="events">
+      <div class="events-container container">
+        <div class="events-title">
+          <h1>Events</h1>
         </div>
-        <div class="contact_section-btn">
-          <a href="./contact.html" class="contact-btn btn">Contact Now</a>
+        <div class="events-content">
+          <div class="events-card">
+            <div class="events-heading">
+              <div class="events-heading-title">
+                <h1>Annual Gender Equality Conference:</h1>
+              </div>
+            </div>
+            <div class="events-description">
+              <p>
+                A flagship event bringing together activists, scholars,
+                policymakers, and community leaders to discuss key issues, share
+                best practices, and inspire collective action
+              </p>
+            </div>
+          </div>
+          <div class="events-card">
+            <div class="events-heading">
+              <div class="events-heading-title">
+                <h1>Gender Empowerment Workshops:</h1>
+              </div>
+            </div>
+            <div class="events-description">
+              <p>
+                Interactive workshops focusing on skill-building, leadership
+                development, and empowerment for individuals of all genders
+              </p>
+            </div>
+          </div>
+          <div class="events-card">
+            <div class="events-heading">
+              <div class="events-heading-title">
+                <h1>Film Screenings and Panel Discussions:</h1>
+              </div>
+            </div>
+            <div class="events-description">
+              <p>
+                Events showcasing films and documentaries that highlight
+                gender-related issues followed by panel discussions with experts
+                and activists.
+              </p>
+            </div>
+          </div>
+          <div class="events-card">
+            <div class="events-heading">
+              <div class="events-heading-title">
+                <h1>Gender-inclusive Networking Events:</h1>
+              </div>
+            </div>
+            <div class="events-description">
+              <p>
+                Social gatherings and networking opportunities designed to
+                foster connections and collaborations among diverse communities.
+              </p>
+            </div>
+          </div>
+          <div class="events-card">
+            <div class="events-heading">
+              <div class="events-heading-title">
+                <h1>Youth Empowerment Programs:</h1>
+              </div>
+            </div>
+            <div class="events-description">
+              <p>
+                Workshops and mentorship programs tailored to empower young
+                people to become agents of change in their schools and
+                communities.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- gallery section -->
-    <section class="gallery_section section">
-      <div class="gallery_section_container container">
-        <div class="gallery_section-title">
-          <h1>Gallery</h1>
+    <!-- partners section -->
+    <section class="partners section" id="partners">
+      <div class="partners-container container">
+        <div class="partners-title">
+          <h1>Partners</h1>
         </div>
-        <div class="gallery_section-content">
-          <div class="gallery_section-img">
-            <img src="./img/IMG-20240418-WA0012.jpg" alt="gallery-img" />
+        <div class="partners-image-container">
+          <div>
+            <img src="./img/logo.jpg" alt="partners-img" />
           </div>
-          <div class="gallery_section-img">
-            <img src="./img/IMG-20240418-WA0043.jpg" alt="gallery-img" />
+          <div>
+            <img src="./img/hvc-partner.jpg" alt="partners-img" />
           </div>
-          <div class="gallery_section-img">
-            <img src="./img/IMG-20240418-WA0114.jpg" alt="gallery-img" />
-          </div>
-          <div class="gallery_section-img">
-            <img src="./img/IMG-20240418-WA0096.jpg" alt="gallery-img" />
-          </div>
-        </div>
-        <div class="gallery_section-btn">
-          <a href="./gallery.html" class="btn">See More</a>
         </div>
       </div>
     </section>
 
-    <!-- footer section -->
-    <footer class="footer section">
+    <!-- Footer -->
+    <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-main">
-          <div class="footer-logo">
-            <p>K<span>Coulibaly</span></p>
+        <div class="footer-addresses">
+          <div class="footer-nav-title">
+            <h3>About</h3>
+          </div>
+          <div class="footer-description">
+            <p>
+            </p>
+            <p class="copyright">
+              &copy;2024 Kassoum Coulibaly. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <div class="footer-navlist">
+          <div class="footer-nav-title">
+            <h3>Company</h3>
+          </div>
+          <ul class="footer-mainlist">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html#services">Services</a></li>
+            <li><a href="./index.html#events">Events</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <div class="footer-nav-title">
+            <h3>Join a Newsletter</h3>
+          </div>
+          <div class="footer-form-cont">
+            <input type="email" placeholder="Enter Your Email" />
+            <div>
+              <button class="news-btn btn">Subscribe</button>
+            </div>
           </div>
           <div class="footer-socials">
-            <a href="#">
+            <div>
               <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="#">
+            </div>
+            <div>
               <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#">
+            </div>
+            <div>
               <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="#">
+            </div>
+            <div>
               <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#">
+            </div>
+            <div>
               <i class="fa-brands fa-tiktok"></i>
-            </a>
-            <a href="#">
+            </div>
+            <div>
               <i class="fa-brands fa-youtube"></i>
-            </a>
-          </div>
-        </div>
-        <div class="footer-regs">
-          <div class="footer-form">
-            <input type="email" placeholder="Enter your Email" />
-            <a href="#" class="footer-btn btn">Submit</a>
-          </div>
-          <div class="footer-copyright">
-            <p>&copy; 2024 Kassoum Coulibaly. All rights reserved.</p>
+            </div>
           </div>
         </div>
       </div>

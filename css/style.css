@@ -133,7 +133,7 @@ nav {
     background-color: var(--color-white);
     display: flex;
     align-items: center;
-    padding: 1.3rem 0rem;
+    padding: 1.2rem 0rem;
     box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
     position: fixed;
     width: 100%;
@@ -150,6 +150,7 @@ nav {
 
 .nav-logo {
     width: 70px;
+    visibility: hidden;
 }
 
 .nav-list {
@@ -268,7 +269,7 @@ nav {
     height: 90vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/IMG-20240418-WA0050.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/IMG-20240418-WA0050.jpg');
     backdrop-filter: blur(20.5px);
     background-size: cover;
     background-position: center;
@@ -332,6 +333,7 @@ nav {
 
 .about_section-img {
     width: 50%;
+    display: none;
 }
 
 .about_section-img img {

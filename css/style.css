@@ -375,6 +375,71 @@ nav {
 }
 
 
+/* Initiatives */
+.initiative-header {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/IMG-20240418-WA0035.jpg');
+    backdrop-filter: blur(20.5px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--color-white);
+}
+
+.initiative-title {
+    font-weight: 900;
+    font-size: 4rem;
+    color: var(--color-white);
+}
+
+.initiative_section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.initiative_section-title h1 {
+    font-size: var(--fs-38);
+    font-weight: 800;
+}
+
+.initiative_section-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.initiative_section-card {
+    background: var(--color-white);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+}
+
+.initiative-card-img {
+    width: 100%;
+    height: 250px;
+}
+
+.initiative-card-img img {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.initiative-briefing {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 /* events */
 .events-container {
     display: flex;

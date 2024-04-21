@@ -140,6 +140,16 @@
         width: 100%;
     }
 
+    /* initiatives */
+    .initiative_section-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .initiative_section-card {
+        width: 100%;
+    }
+
     /* partners */
 
     .partners-image-container {
